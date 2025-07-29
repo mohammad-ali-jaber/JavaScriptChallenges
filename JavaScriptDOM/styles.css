@@ -1,0 +1,50 @@
+/* Style for the 'myElement' ID */ 
+#myElement { 
+background-color: #f0f0f0; 
+padding: 20px; 
+font-size: 18px; 
+color: #333; 
+border: 2px solid #ccc; 
+} 
+/* Style for the 'myButton' ID */ 
+#myButton { 
+background-color: #4CAF50; 
+color: white; 
+padding: 10px 20px; 
+font-size: 16px; 
+border: none; 
+cursor: pointer; 
+} 
+#myButton:hover { 
+background-color: #45a049; /* Change color on hover */ 
+} 
+/* Style for the 'myParagraph' ID */ 
+#myParagraph { 
+font-size: 18px; 
+color: #555; 
+margin-top: 10px; 
+font-family: Arial, sans-serif; 
+}
+
+/* Style for the 'myClass' class */ 
+.myClass { 
+font-size: 16px; 
+color: #007BFF; 
+margin-bottom: 10px; 
+padding: 10px; 
+border: 1px solid #007BFF; 
+} 
+/* Style for the 'img' element */ 
+#myImage { 
+width: 150px; 
+height: 150px; 
+margin-top: 20px; 
+border-radius: 10px; 
+border: 3px solid #ddd; 
+}
+
+.button-toggle {
+    background-color: rgb(118, 228, 228);
+    color: rgb(19, 3, 248);
+    padding: 10px 20px;
+}

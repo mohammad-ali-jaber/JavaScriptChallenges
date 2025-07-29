@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>challeng 10</title>
+</head>
+<body>
+
+<h1>Hello World</h1>
+<script>
+function sortNumbers(numbers){
+   const array = [...numbers];
+
+  for (let i = 0; i < array.length - 1; i++) {
+    for (let j = 0; j < array.length - 1 - i; j++) {
+      if (array[j] > array[j + 1]) {
+        let temp = array[j];
+        array[j] = array[j + 1];
+        array[j + 1] = temp;
+      }
+    }
+  }
+  return array;
+}
+
+const NewArray = [5, 2, 4, 3, 1];
+const sortedArray = sortNumbers(NewArray);
+const array = [...NewArray];
+const NewsortedArray=array.sort()
+
+
+console.log(NewArray)
+console.log(sortedArray)
+console.log(NewsortedArray)
+</script>
+</body>
+</html> 

@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>challeng 18</title>
+</head>
+<body>
+
+<h1>Hello World</h1>
+<script>
+const book = {
+  title: "javascript",
+  author: "mohammad ali",
+  pages: 100,
+  description: function() {
+    //console.log(`${book.title} by ${book.author}, ${book.pages} pages.`);
+    console.log(`${this.title} by ${this.author}, ${this.pages} pages.`);
+  }
+};
+
+book.description();
+</script>
+</body>
+</html> 
